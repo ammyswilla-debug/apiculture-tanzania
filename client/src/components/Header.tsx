@@ -27,7 +27,7 @@ export default function Header() {
   const isActive = (href: string) => location === href;
 
   return (
-    <header className="sticky top-0 z-50 bg-background border-b border-border shadow-warm">
+    <header className="sticky top-0 z-50 bg-background border-b border-border shadow-lg">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}

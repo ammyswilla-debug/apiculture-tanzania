@@ -246,10 +246,7 @@
     box-shadow: 0 20px 50px rgba(196, 90, 23, 0.15);
   }
   
-  /* Hover lift effect */
-  .hover-lift {
-    @apply transition-all duration-200 ease-out hover:shadow-lg hover:-translate-y-1;
-  }
+  /* Hover lift effect - using inline styles instead */
   
   /* Smooth fade-in animation */
   @keyframes fadeInUp {
@@ -269,7 +266,7 @@
   
   /* Organic card styling */
   .card-organic {
-    @apply bg-card text-card-foreground rounded-3xl p-6 shadow-warm hover-lift;
+    @apply bg-card text-card-foreground rounded-3xl p-6 shadow-warm transition-all duration-200 ease-out hover:shadow-lg hover:-translate-y-1;
   }
   
   /* Gradient text for headings */

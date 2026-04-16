@@ -100,7 +100,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/learn">
-                <Button className="bg-primary hover:bg-accent text-foreground font-semibold rounded-lg px-8 py-4 text-lg transition-all duration-200 hover-lift">
+                <Button className="bg-primary hover:bg-accent text-foreground font-semibold rounded-lg px-8 py-4 text-lg transition-all duration-200 hover:shadow-lg hover:-translate-y-1">
                   Start Learning
                 </Button>
               </Link>
@@ -260,7 +260,7 @@ export default function Home() {
             Access comprehensive resources, expert guidance, and a supportive community dedicated to advancing beekeeping knowledge.
           </p>
           <Link href="/learn">
-            <Button className="bg-primary hover:bg-accent text-foreground font-semibold rounded-lg px-8 py-4 text-lg transition-all duration-200 hover-lift">
+            <Button className="bg-primary hover:bg-accent text-foreground font-semibold rounded-lg px-8 py-4 text-lg transition-all duration-200 hover:shadow-lg hover:-translate-y-1">
               Explore Knowledge Base
             </Button>
           </Link>

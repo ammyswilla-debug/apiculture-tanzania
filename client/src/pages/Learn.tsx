@@ -69,7 +69,7 @@ export default function Learn() {
             {categories.map((category, index) => (
               <div
                 key={index}
-                className="border border-border rounded-2xl overflow-hidden hover-lift transition-all duration-200"
+                className="border border-border rounded-2xl overflow-hidden transition-all duration-200 hover:shadow-lg hover:-translate-y-1"
               >
                 <button
                   onClick={() =>
