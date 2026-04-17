@@ -229,11 +229,9 @@ export default function Home() {
                     {post.excerpt}
                   </p>
 
-                  <Link href="/news">
-                    <a className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
-                      Read More
-                      <ArrowRight className="w-4 h-4" />
-                    </a>
+                  <Link href="/news" className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
+                    Read More
+                    <ArrowRight className="w-4 h-4" />
                   </Link>
                 </div>
               </div>
