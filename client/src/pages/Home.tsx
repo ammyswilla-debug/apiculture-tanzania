@@ -92,7 +92,7 @@ export default function Home() {
         {/* Content */}
         <div className="container mx-auto px-4 relative z-10 text-center text-white">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" style={{fontSize: '65px', fontWeight: '800', fontFamily: 'Inter, sans-serif'}}>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" style={{fontSize: '49px', fontWeight: '800', fontFamily: 'Inter, sans-serif'}}>
               Empowering Beekeeping Knowledge Across Tanzania
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-95 leading-relaxed">
