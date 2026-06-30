@@ -43,102 +43,102 @@
 }
 
 :root {
-  /* Organic Warmth Design System */
-  /* Primary: Honey Gold - warm, earthy, authentic */
-  --primary: #D4A574;
-  --primary-foreground: #1A1A1A;
+  /* Vibrant & Modern Design System */
+  /* Primary: Bright Teal - modern, energetic, fresh */
+  --primary: #0EA5E9;
+  --primary-foreground: #FFFFFF;
   
-  /* Secondary: Forest Green - trust, growth, sustainability */
-  --secondary: #2D5016;
-  --secondary-foreground: #F9F5F0;
+  /* Secondary: Deep Navy - professional, trustworthy, bold */
+  --secondary: #1E3A8A;
+  --secondary-foreground: #FFFFFF;
   
-  /* Accent: Warm Terracotta - energy, passion, African warmth */
-  --accent: #C85A17;
-  --accent-foreground: #F9F5F0;
+  /* Accent: Coral - vibrant, energetic, attention-grabbing */
+  --accent: #FF6B6B;
+  --accent-foreground: #FFFFFF;
   
   /* Sidebar colors */
-  --sidebar-primary: #D4A574;
-  --sidebar-primary-foreground: #1A1A1A;
+  --sidebar-primary: #0EA5E9;
+  --sidebar-primary-foreground: #FFFFFF;
   
-  /* Chart colors - warm palette */
-  --chart-1: #D4A574;
-  --chart-2: #C85A17;
-  --chart-3: #2D5016;
-  --chart-4: #8B6F47;
-  --chart-5: #A0826D;
+  /* Chart colors - vibrant palette */
+  --chart-1: #0EA5E9;
+  --chart-2: #FF6B6B;
+  --chart-3: #1E3A8A;
+  --chart-4: #06B6D4;
+  --chart-5: #0284C7;
   
   /* Spacing and radius - organic, soft */
   --radius: 1.5rem;
   
-  /* Background: Cream - soft, inviting, paper-like */
-  --background: #F9F5F0;
-  --foreground: #1A1A1A;
+  /* Background: Light gray - clean, modern */
+  --background: #F8FAFC;
+  --foreground: #0F172A;
   
   /* Card styling */
   --card: #FFFFFF;
-  --card-foreground: #1A1A1A;
+  --card-foreground: #0F172A;
   
   /* Popover styling */
   --popover: #FFFFFF;
-  --popover-foreground: #1A1A1A;
+  --popover-foreground: #0F172A;
   
-  /* Muted colors - soft neutrals */
-  --muted: #E8DDD0;
-  --muted-foreground: #6B6B6B;
+  /* Muted colors - soft grays */
+  --muted: #E2E8F0;
+  --muted-foreground: #64748B;
   
   /* Border and input colors */
-  --border: #E0D5C7;
-  --input: #F5F0E8;
+  --border: #CBD5E1;
+  --input: #F1F5F9;
   
   /* Ring color for focus states */
-  --ring: #D4A574;
+  --ring: #0EA5E9;
   
   /* Destructive color */
-  --destructive: #DC2626;
-  --destructive-foreground: #F9F5F0;
+  --destructive: #EF4444;
+  --destructive-foreground: #FFFFFF;
   
   /* Sidebar colors */
-  --sidebar: #F9F5F0;
-  --sidebar-foreground: #1A1A1A;
-  --sidebar-accent: #D4A574;
-  --sidebar-accent-foreground: #1A1A1A;
-  --sidebar-border: #E0D5C7;
-  --sidebar-ring: #D4A574;
+  --sidebar: #F8FAFC;
+  --sidebar-foreground: #0F172A;
+  --sidebar-accent: #0EA5E9;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #CBD5E1;
+  --sidebar-ring: #0EA5E9;
 }
 
 .dark {
-  --primary: #D4A574;
-  --primary-foreground: #F9F5F0;
-  --sidebar-primary: #D4A574;
-  --sidebar-primary-foreground: #F9F5F0;
-  --background: #1A1A1A;
-  --foreground: #F9F5F0;
-  --card: #2A2A2A;
-  --card-foreground: #F9F5F0;
-  --popover: #2A2A2A;
-  --popover-foreground: #F9F5F0;
-  --secondary: #2D5016;
-  --secondary-foreground: #F9F5F0;
-  --muted: #3A3A3A;
-  --muted-foreground: #B8B8B8;
-  --accent: #C85A17;
-  --accent-foreground: #F9F5F0;
-  --destructive: #EF4444;
-  --destructive-foreground: #1A1A1A;
-  --border: #3A3A3A;
-  --input: #2A2A2A;
-  --ring: #D4A574;
-  --chart-1: #D4A574;
-  --chart-2: #C85A17;
-  --chart-3: #2D5016;
-  --chart-4: #8B6F47;
-  --chart-5: #A0826D;
-  --sidebar: #2A2A2A;
-  --sidebar-foreground: #F9F5F0;
-  --sidebar-accent: #D4A574;
-  --sidebar-accent-foreground: #1A1A1A;
-  --sidebar-border: #3A3A3A;
-  --sidebar-ring: #D4A574;
+  --primary: #0EA5E9;
+  --primary-foreground: #FFFFFF;
+  --sidebar-primary: #0EA5E9;
+  --sidebar-primary-foreground: #FFFFFF;
+  --background: #0F172A;
+  --foreground: #F1F5F9;
+  --card: #1E293B;
+  --card-foreground: #F1F5F9;
+  --popover: #1E293B;
+  --popover-foreground: #F1F5F9;
+  --secondary: #1E3A8A;
+  --secondary-foreground: #FFFFFF;
+  --muted: #334155;
+  --muted-foreground: #CBD5E1;
+  --accent: #FF6B6B;
+  --accent-foreground: #FFFFFF;
+  --destructive: #F87171;
+  --destructive-foreground: #FFFFFF;
+  --border: #334155;
+  --input: #1E293B;
+  --ring: #0EA5E9;
+  --chart-1: #0EA5E9;
+  --chart-2: #FF6B6B;
+  --chart-3: #1E3A8A;
+  --chart-4: #06B6D4;
+  --chart-5: #0284C7;
+  --sidebar: #1E293B;
+  --sidebar-foreground: #F1F5F9;
+  --sidebar-accent: #0EA5E9;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #334155;
+  --sidebar-ring: #0EA5E9;
 }
 
 @layer base {
