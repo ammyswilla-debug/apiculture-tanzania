@@ -92,7 +92,7 @@ export default function Home() {
         {/* Content */}
         <div className="container mx-auto px-4 relative z-10 text-center text-white">
           <div className="max-w-3xl mx-auto animate-fade-in-up">
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight" style={{fontSize: '49px', fontWeight: '800', fontFamily: 'Inter, sans-serif'}}>
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
               Empowering Beekeeping Knowledge Across Tanzania
             </h1>
             <p className="text-xl md:text-2xl mb-8 opacity-95 leading-relaxed">
@@ -229,9 +229,11 @@ export default function Home() {
                     {post.excerpt}
                   </p>
 
-                  <Link href="/news" className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
-                    Read More
-                    <ArrowRight className="w-4 h-4" />
+                  <Link href="/news">
+                    <a className="inline-flex items-center gap-2 text-primary hover:text-accent font-semibold transition-colors">
+                      Read More
+                      <ArrowRight className="w-4 h-4" />
+                    </a>
                   </Link>
                 </div>
               </div>

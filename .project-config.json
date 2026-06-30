@@ -1,0 +1,38 @@
+{
+  "build_command": "pnpm run build",
+  "capabilities": [],
+  "dev_command": "pnpm run dev",
+  "env_vars": {},
+  "experiments": [
+    "no_db_push"
+  ],
+  "git_remote": {
+    "repo_url": "s3://vida-prod-gitrepo/webdev-git/310519663537570709/CrBfbhYgyjieAHB6YkM7mr",
+    "access_key_id": "ASIAZV3A2ECZAAHBUENZ",
+    "secret_access_key": "7kCyqzdoD4rDItUhvr+I+EdyP/3BUONeRNIQ9pAA",
+    "session_token": "IQoJb3JpZ2luX2VjEOf//////////wEaCXVzLWVhc3QtMSJHMEUCIQD95qNLryKII+acUhCgj/emLAxd3J3b5CB1TvbEPjt9dgIgJKuRRhZtnaEpjgvhRYrdagopcuKqpKl0c1jagSbKAeUq/wMIsP//////////ARAEGgw2NjUzODYwOTg4NjYiDAnM1EhLj5NTlks5xyrTA5Ec429d6t7UmcwpoEWjDRnT/Wc7CLQoecZxpUCy+SZlpwbJs1lrut0kSEtc5IYVfhD0KVD1v42jx4yJ3aRmiKYEw+HgetycSh9MOODQlI0DH4TH2kq9d/06oXgcSvTULeA+zW5Tn+L411vCedQ5hyEih8aArkqroLv0o3OwCgdhIuKGvPmz1F6AWpaumuDX7eqZJNNiIhHeScgcp4xoBmPy5zrPoknk4cJXHoJL8EHwfbbUnZJsvj4XOGA8Qoeo4tGsCs7a1s9uFJS/K2d7rmBi3Q++q6FjOFLTI9PiObAp/gCMA8asBWrRaBGcG53FW8qdjSGYUTRTewrqQl5vZTKJJaGnLNyEilXhSTfo0ajf1XuCk3QOpci7onlD0EO8RPObgTyhoDtKcIDVjotfPZk4liZ/FnrMZFyE5CR7N5hsluHfegi6X1FiULjpWG/mB511dhe+del+H2kP5tVPNV19oga1fHJFJgdhXi00+HWBDG9BhtiwrvgBLHgXixdEhFryQyETfrfVg3HfhOEWHup215D80WIqC6LCJ6ht4EMtM+MBJ8fsjgH08iXa6+yb9GFw+VckxAilzrtlQPsOSQkXN07FUUhJfTDbBpqyufGaj9m6MJqDitIGOp0Bp1XjpJVEbm2vrfkOGJKSJDXT7hey2HhToia8ic7aCE+jXn4i+3EGKhNJftsw0hVroTwgLk5G27qiNEcF21IAd/m6MBCh7skVIqrPZ4n6M/RFsfIYUEP/QzbVvM4nH7bm/gTAgMiSXx/ZfFRLWwf1dueS+oPnuPM5f/ztwAsgTBpUvwERIp+ctKHuJht1PEr2c6KVKJdSQguAeRxI2A==",
+    "expiration": "2026-06-30T02:30:50.000Z",
+    "backend": "GIT_BACKEND_S3"
+  },
+  "name": "apiculture-tanzania",
+  "path": "/home/ubuntu/apiculture-tanzania",
+  "port": 3000,
+  "secrets": {
+    "BUILT_IN_FORGE_API_KEY": "PQb9RJXAYY2AiANpWb48Rd",
+    "BUILT_IN_FORGE_API_URL": "https://forge.manus.ai",
+    "JWT_SECRET": "hbT5cX3AYK6Xx5hWGkjju4",
+    "OAUTH_SERVER_URL": "https://api.manus.im",
+    "OWNER_NAME": "Ammy Swilla",
+    "OWNER_OPEN_ID": "MXuA5xbZ4J4eBLnSmUfxaK",
+    "VITE_ANALYTICS_ENDPOINT": "https://manus-analytics.com",
+    "VITE_ANALYTICS_WEBSITE_ID": "2a08c084-5b5c-4f5e-9565-0ee233f3837e",
+    "VITE_APP_ID": "CrBfbhYgyjieAHB6YkM7mr",
+    "VITE_APP_LOGO": "https://files.manuscdn.com/user_upload_by_module/web_dev_logo/310519663537570709/ZmhYTHaUyfxuURGu.png",
+    "VITE_APP_TITLE": "Apiculture Tanzania",
+    "VITE_FRONTEND_FORGE_API_KEY": "R5HYxpi9bowprvqKYhYTMg",
+    "VITE_FRONTEND_FORGE_API_URL": "https://forge.manus.ai",
+    "VITE_OAUTH_PORTAL_URL": "https://manus.im"
+  },
+  "template_id": "web-static",
+  "test_command": "pnpm test"
+}
