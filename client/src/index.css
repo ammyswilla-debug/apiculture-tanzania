@@ -43,102 +43,102 @@
 }
 
 :root {
-  /* Vibrant & Modern Design System */
-  /* Primary: Bright Teal - modern, energetic, fresh */
-  --primary: #0EA5E9;
+  /* Nature-Inspired Design System */
+  /* Primary: Forest Green - growth, nature, sustainability */
+  --primary: #2D5016;
   --primary-foreground: #FFFFFF;
   
-  /* Secondary: Deep Navy - professional, trustworthy, bold */
-  --secondary: #1E3A8A;
+  /* Secondary: Earth Brown - grounded, natural, warm */
+  --secondary: #92400E;
   --secondary-foreground: #FFFFFF;
   
-  /* Accent: Coral - vibrant, energetic, attention-grabbing */
-  --accent: #FF6B6B;
+  /* Accent: Leaf Green - fresh, vibrant, organic */
+  --accent: #65A30D;
   --accent-foreground: #FFFFFF;
   
   /* Sidebar colors */
-  --sidebar-primary: #0EA5E9;
+  --sidebar-primary: #2D5016;
   --sidebar-primary-foreground: #FFFFFF;
   
-  /* Chart colors - vibrant palette */
-  --chart-1: #0EA5E9;
-  --chart-2: #FF6B6B;
-  --chart-3: #1E3A8A;
-  --chart-4: #06B6D4;
-  --chart-5: #0284C7;
+  /* Chart colors - nature palette */
+  --chart-1: #2D5016;
+  --chart-2: #65A30D;
+  --chart-3: #92400E;
+  --chart-4: #84CC16;
+  --chart-5: #4B5563;
   
   /* Spacing and radius - organic, soft */
   --radius: 1.5rem;
   
-  /* Background: Light gray - clean, modern */
-  --background: #F8FAFC;
-  --foreground: #0F172A;
+  /* Background: Soft cream - natural, organic */
+  --background: #FEFEF8;
+  --foreground: #1B2D0F;
   
   /* Card styling */
   --card: #FFFFFF;
-  --card-foreground: #0F172A;
+  --card-foreground: #1B2D0F;
   
   /* Popover styling */
   --popover: #FFFFFF;
-  --popover-foreground: #0F172A;
+  --popover-foreground: #1B2D0F;
   
-  /* Muted colors - soft grays */
-  --muted: #E2E8F0;
-  --muted-foreground: #64748B;
+  /* Muted colors - soft earth tones */
+  --muted: #E8DCC8;
+  --muted-foreground: #6B5D52;
   
   /* Border and input colors */
-  --border: #CBD5E1;
-  --input: #F1F5F9;
+  --border: #D9CEC0;
+  --input: #F5F2ED;
   
   /* Ring color for focus states */
-  --ring: #0EA5E9;
+  --ring: #2D5016;
   
   /* Destructive color */
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
   
   /* Sidebar colors */
-  --sidebar: #F8FAFC;
-  --sidebar-foreground: #0F172A;
-  --sidebar-accent: #0EA5E9;
+  --sidebar: #FEFEF8;
+  --sidebar-foreground: #1B2D0F;
+  --sidebar-accent: #2D5016;
   --sidebar-accent-foreground: #FFFFFF;
-  --sidebar-border: #CBD5E1;
-  --sidebar-ring: #0EA5E9;
+  --sidebar-border: #D9CEC0;
+  --sidebar-ring: #2D5016;
 }
 
 .dark {
-  --primary: #0EA5E9;
+  --primary: #65A30D;
   --primary-foreground: #FFFFFF;
-  --sidebar-primary: #0EA5E9;
+  --sidebar-primary: #65A30D;
   --sidebar-primary-foreground: #FFFFFF;
-  --background: #0F172A;
-  --foreground: #F1F5F9;
-  --card: #1E293B;
-  --card-foreground: #F1F5F9;
-  --popover: #1E293B;
-  --popover-foreground: #F1F5F9;
-  --secondary: #1E3A8A;
+  --background: #1B2D0F;
+  --foreground: #F5F2ED;
+  --card: #2D4A1F;
+  --card-foreground: #F5F2ED;
+  --popover: #2D4A1F;
+  --popover-foreground: #F5F2ED;
+  --secondary: #92400E;
   --secondary-foreground: #FFFFFF;
-  --muted: #334155;
-  --muted-foreground: #CBD5E1;
-  --accent: #FF6B6B;
-  --accent-foreground: #FFFFFF;
+  --muted: #3D5A2A;
+  --muted-foreground: #D9CEC0;
+  --accent: #84CC16;
+  --accent-foreground: #1B2D0F;
   --destructive: #F87171;
   --destructive-foreground: #FFFFFF;
-  --border: #334155;
-  --input: #1E293B;
-  --ring: #0EA5E9;
-  --chart-1: #0EA5E9;
-  --chart-2: #FF6B6B;
-  --chart-3: #1E3A8A;
-  --chart-4: #06B6D4;
-  --chart-5: #0284C7;
-  --sidebar: #1E293B;
-  --sidebar-foreground: #F1F5F9;
-  --sidebar-accent: #0EA5E9;
+  --border: #3D5A2A;
+  --input: #2D4A1F;
+  --ring: #65A30D;
+  --chart-1: #65A30D;
+  --chart-2: #84CC16;
+  --chart-3: #92400E;
+  --chart-4: #A3E635;
+  --chart-5: #D9CEC0;
+  --sidebar: #2D4A1F;
+  --sidebar-foreground: #F5F2ED;
+  --sidebar-accent: #65A30D;
   --sidebar-accent-foreground: #FFFFFF;
-  --sidebar-border: #334155;
-  --sidebar-ring: #0EA5E9;
+  --sidebar-border: #3D5A2A;
+  --sidebar-ring: #65A30D;
 }
 
 @layer base {
